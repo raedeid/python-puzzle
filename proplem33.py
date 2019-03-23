@@ -1,6 +1,6 @@
 def prime(s):
     import math 
-    s>=22
+    s>=2
     for b in range (2,math.sqrt(s)+1):
         if s%b ==0 :
          return False 
