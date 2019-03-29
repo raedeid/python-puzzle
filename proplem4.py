@@ -7,10 +7,9 @@ def both_way(a):#test if result of production is palindrome
         return True
     return False
 
-for c in range(10,100):#loop for 2 digit number 
-    for d in range(100,1000):#loop for 3 digit number 
+for c in range(100,10,-1):#loop for 2 digit number 
+    for d in range(1000,100,-1):#loop for 3 digit number 
        production=c*d
-       all_production=[]
        if both_way(production):
-          all_production.append(production)#add the palindrome for all_production lis
-          print(all_production)
+          print(production,'=',c,'*',d)
+          break  
