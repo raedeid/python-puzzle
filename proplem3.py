@@ -14,7 +14,7 @@ def largest_prime_factor(a):
     while i <=a/i :
         if prime (i) and a%i==0 : #to check if i is prime and factor for a
             prime_factor.append(i) 
-            a/=i #try to division a to mke code faster it will be lost of time if try to every single number
+            a/=i #try to division a to make code faster it will be lost of time if try to every single number
             if prime(a):
               prime_factor.append (a)
         else:
