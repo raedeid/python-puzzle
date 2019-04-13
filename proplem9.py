@@ -14,7 +14,7 @@ def is_triple_of_Pythagorean(a,b,c):#check if the 3 number has feature of the py
 
 
 
-for first in range(1,1000):#make roll for number under cause we need sumation equal 1000
+for first in range(1,1000):#make roll for number under 1000 cause we need sumation equal 1000
     for seconed in range (1,1000):
         for third in range (1,1000):
             if first+seconed+third==1000:
