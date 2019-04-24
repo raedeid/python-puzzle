@@ -59,12 +59,12 @@ for b in range(20):
 
 for b in range(16):
     for c in range(16):
-        production= g[b][c]*g[b+1][c+1]*g[b+2][c+2]*g[b+3][c+3]#for number in middle diagonal
+        production= g[b][c]*g[b+1][c+1]*g[b+2][c+2]*g[b+3][c+3]#for number in  diagonal
         if production > max_number: 
             max_number = production
 for b in range(3,20):
     for c in range(16):
-        production= g[b][c]*g[b-1][c+1]*g[b-2][c+2]*g[b-3][c+3]#for diagonal number except the middle 
+        production= g[b][c]*g[b-1][c+1]*g[b-2][c+2]*g[b-3][c+3]
         if production > max_number: 
             max_number = production            
 
