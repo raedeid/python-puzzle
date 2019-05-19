@@ -5,8 +5,8 @@ import math
 def is_prime(number):
     for b in range(2,int(math.sqrt(number))+1):
         if number%b==0:
-            return True
-    return False
+            return False
+    return True
 
 
 list_of_primes=[]
