@@ -20,6 +20,6 @@ for first in range(1,1000):#make roll for number under 1000 cause we need sumati
             if first+seconed+third==1000:
                 if is_triple_of_Pythagorean(first,seconed,third):
                     print (first*seconed*third)#print the product
-           
+                    break 
 
         
