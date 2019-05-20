@@ -1,7 +1,7 @@
 #The prime factors of 13195 are 5, 7, 13 and 29.
 #What is the largest prime factor of the number 600851475143 ?
 import math
-def is_prime(s): #this code for check the prime number
+def prime(s): #this code for check the prime number
     for b in range (2,int(math.sqrt(s))+1):  #i used the sqrt cause check number contain the list of under s sqrt 
         if s%b==0 :
          return False 
@@ -21,5 +21,5 @@ def largest_prime_factor(a):
             i=i+1 
                 
             
-    return prime_factor #this will return all prime factor
+    return max(prime_factor) #this will return all prime factor
 
